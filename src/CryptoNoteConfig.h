@@ -149,18 +149,10 @@ const size_t   P2P_DEFAULT_HANDSHAKE_INVOKE_TIMEOUT          = 5000;          //
 const char     P2P_STAT_TRUSTED_PUB_KEY[]                    = "8f80f9a5a434a9f1510d13336228debfee9c918ce505efe225d8c94d045fa115";
 
 const char* const SEED_NODES[] = { 
-  "seed.bbscoin.xyz:11204", 
-  "1.seed.bbscoin.xyz:11204", 
-  "2.seed.bbscoin.xyz:11204", 
-  "3.seed.bbscoin.xyz:11204", 
-  "4.seed.bbscoin.xyz:11204", 
-  "5.seed.bbscoin.xyz:11204", 
-  "6.seed.bbscoin.xyz:11204", 
-  "7.seed.bbscoin.xyz:11204", 
-  "8.seed.bbscoin.xyz:11204", 
-  "9.seed.bbscoin.xyz:11204", 
-  "10.seed.bbscoin.xyz:11204", 
-  "45.77.187.229:11204" 
+  "node.bbscoin.click:11204", 
+  "asia-japan-node.bbscoin.click:11204", 
+  "us-east-node.bbscoin.click:11204", 
+  "us-west-node.bbscoin.click:11204"
 };
 
 struct CheckpointData {
@@ -190,7 +182,14 @@ const std::initializer_list<CheckpointData> CHECKPOINTS = {
     {483290, "465d4248ffc8b2e96a98928d0cb87dca937e413a50580e2cc1174d9edaab9d60"},
     {560800, "f59c3300d8fa4aa93f2453d6753e8ad3a8fb31c536b9428c30b68142577da91f"},
     {590320, "a2d716934c62d8e4c3dc7cbace7bfacedef9d642843a5ffcafe76dd066606d49"},
-    {697500, "4d53fb6809e396b776ab3c51965075deb21be540a9e7df9fb6310b618dfc2770"}
+    {600542, "b9e00745a82d56700563507c7214d0c315eddcece23496cf52f96731b02d8251"},
+    {654554, "b4bdd0ae508e4de172a5d7aeb7452d4da9eb0bc8c9a268b759d151461e646316"},
+    {695245, "c6fcd84877f0b198187aa417446c4382902b9e0b09b2ae95940caf4a9980a772"},
+    {738855, "ed8f2d44fbdaeeb1b3d1a10482164ce4ab3d82938dc59e1f46087fbb7b66446c"},
+    {755130, "c0e0baca6ab22638f2c5d3f69c53c04de9ea53afffd75a95a8d65038c5444053"},
+    {785199, "55a5262c7f1d4e9f42e9ec8448456eda8936efdd8f74ab5ed2c5c48fa209886a"},
+    {832118, "c2636869822ed4020b321ae50abae4ab8ca78524d5238b67a4e69e587b37594e"},
+    {856513, "618432377f70f7c2140a0db1c3731902adeacb413f2ff17538e31a1ceaeffb22"}   
 };
 
 } // CryptoNote
