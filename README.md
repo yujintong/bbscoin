@@ -10,7 +10,7 @@ This repo contains daemons for blockchain, payment and wallet service.
 
 ```
 sudo apt-get install build-essential libboost-all-dev git cmake
-git clone https://github.com/bbscoin/bbscoin.git
+git clone https://github.com/bbscoincommunity/bbscoin.git
 cd bbscoin
 make
 ```
@@ -27,7 +27,7 @@ cd boost_1_66_0
 ./bootstrap.sh
 ./b2 install
 cd ..
-git clone https://github.com/bbscoin/bbscoin.git
+git clone https://github.com/bbscoincommunity/bbscoin.git
 cd bbscoin
 make
 ```
@@ -69,7 +69,7 @@ Good luck!
 brew update
 brew install cmake
 brew install boost
-git clone https://github.com/bbscoin/bbscoin.git
+git clone https://github.com/bbscoincommunity/bbscoin.git
 cd bbscoin
 make
 ```
@@ -83,11 +83,13 @@ The resulting executables can be found in `build/release/src`.
 * Building with Clang: it may be possible to use Clang instead of GCC, but this may not work everywhere. To build, run `export CC=clang CXX=clang++` before running `make`.
 
 ## Donate
-BBS: <br>fySNLTUCovtbYGcFMh4e4gcyJ2HZEFDhq9x4Qba3NSatcK87Q7HPM73LCHxydBRTsv8MKk7CPtNRbGmbr3n7DfBi2y6zTTyAv <br><br>
-BTC: <br>1Kpqk3BTzFCvyuBZDTbe5Y8o24VA1AQ5Km <br><br>
-ETH: <br>0x29da788fb4a162e97d64cc0ec1817af35fe14ad1 <br><br>
+BBS: <br>fyU3ffhWgpR92f3XZQjTWGjXrB4kYoX7mjKimyoPmAJ1UnN64JoKbuzMzuKQsz6xbuMv4Wi4oGTztUK184Jtds1u1efrn2smr <br><br>
+BTC: <br>1JHY7XZtUj862nt7ZU1jQ9UHvKu57i6siu <br><br>
+ETH: <br>0xfC7CA5C949bBbB57cc2D75E57Cb586b30bb61b96 <br><br>
+TRX: <br>TBwhDfDTKXurP9iYtRVcXg1MgMfCXGdJYk <br><br>
+BNB: <br>bnb1xu0mp9n95694ynkzvc0x7zd4jd5xfyatfrntxx <br><br>
 
 ## Links
 
-* Official Web Site: https://bbscoin.xyz
-* Official Twitter: https://twitter.com/bbscoin_xyz
+* Official Web Site: https://bbscoin.click
+* Official Twitter: https://twitter.com/bbs_coin
