@@ -6,7 +6,9 @@ enable_language(CXX)
 find_package(Threads)
 
 set(VERSION "0.1")
-# $Format:Packaged from commit %H%nset(COMMIT %h)%nset(REFS "%d")$
+# Packaged from commit f79b095c23a9886947b1c6bcfaab40f69f244efa
+set(COMMIT f79b095)
+set(REFS " (tag: 6.1.0.2000)")
 
 set_property(GLOBAL PROPERTY USE_FOLDERS ON)
 set(CMAKE_CONFIGURATION_TYPES Debug RelWithDebInfo Release CACHE TYPE INTERNAL)

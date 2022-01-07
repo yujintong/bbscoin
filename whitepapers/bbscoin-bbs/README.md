@@ -1,2 +1,0 @@
-# BBSCoin (BBS)
-
