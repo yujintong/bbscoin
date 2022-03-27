@@ -1,4 +1,4 @@
-#ifndef BIP39_KOREAN_STR_H
+﻿#ifndef BIP39_KOREAN_STR_H
 #define BIP39_KOREAN_STR_H
 
 #include "util.h"

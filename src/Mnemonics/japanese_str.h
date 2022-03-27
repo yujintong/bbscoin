@@ -1,11 +1,11 @@
-#ifndef BIP39_JAPANESE_STR_H
+﻿#ifndef BIP39_JAPANESE_STR_H
 #define BIP39_JAPANESE_STR_H
 
 #include "util.h"
 
 const char japanese_0_str[] PROGMEM = u8"あいこくしん";
 const char japanese_1_str[] PROGMEM = u8"あいさつ";
-const char japanese_2_str[] PROGMEM = u8"あいだ";
+const char japanese_2_str[] PROGMEM = u8"あいた";
 const char japanese_3_str[] PROGMEM = u8"あおぞら";
 const char japanese_4_str[] PROGMEM = u8"あかちゃん";
 const char japanese_5_str[] PROGMEM = u8"あきる";
