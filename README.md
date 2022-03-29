@@ -1,4 +1,4 @@
-![BBSCoin](https://github.com/bbscoin/bbscoin/blob/master/logos/bbscoin.png "BBSCoin")
+![BBSCoin](https://github.com/yujintong/bbscoin/blob/master/logos/bbscoin.png "BBSCoin")
 
 # BBSCoin(BBS)
 
@@ -10,7 +10,7 @@ This repo contains daemons for blockchain, payment and wallet service.
 
 ```
 sudo apt-get install build-essential libboost-all-dev git cmake
-git clone https://github.com/bbscoincommunity/bbscoin.git
+git clone https://github.com/yujintong/bbscoin.git
 cd bbscoin
 make
 ```
@@ -21,13 +21,13 @@ You can see the binaries in the src folder
 
 ```
 yum install git cmake gcc-c++ gcc glibc-static wget libstdc++-static
-wget https://dl.bintray.com/boostorg/release/1.66.0/source/boost_1_66_0.tar.gz
-tar xzvf https://dl.bintray.com/boostorg/release/1.66.0/source/boost_1_66_0.tar.gz
+wget https://boostorg.jfrog.io/artifactory/main/release/1.66.0/source/boost_1_66_0.tar.gz
+tar xzvf boost_1_66_0.tar.gz
 cd boost_1_66_0
 ./bootstrap.sh
 ./b2 install
 cd ..
-git clone https://github.com/bbscoincommunity/bbscoin.git
+git clone https://github.com/yujintong/bbscoin.git
 cd bbscoin
 make
 ```
@@ -36,7 +36,7 @@ You can see the binaries in the src folder
 
 ### On *nix
 
-Dependencies: GCC 4.7.3 or later, CMake 2.8.6 or later, and Boost 1.55.
+Dependencies: GCC 4.7.3 or later, CMake 2.8.6 or later, and Boost 1.66.
 
 You may download them from:
 
@@ -48,7 +48,7 @@ You may download them from:
 To build, change to a directory where this file is located, and run `make`. The resulting executables can be found in `build/release/src`.
 
 ### On Windows
-Dependencies: MSVC 2013 or later, CMake 2.8.6 or later, and Boost 1.55. You may download them from:
+Dependencies: MSVC 2017 or later, CMake 2.8.6 or later, and Boost 1.66. You may download them from:
 
 * http://www.microsoft.com/
 * http://www.cmake.org/
@@ -58,7 +58,7 @@ To build, change to a directory where this file is located, and run theas comman
 ```
 mkdir build
 cd build
-cmake -G "Visual Studio 12 Win64" ..
+cmake -G "Visual Studio 15 Win64" ..
 ```
 
 And then do Build.
@@ -69,7 +69,7 @@ Good luck!
 brew update
 brew install cmake
 brew install boost
-git clone https://github.com/bbscoincommunity/bbscoin.git
+git clone https://github.com/yujintong/bbscoin.git
 cd bbscoin
 make
 ```
